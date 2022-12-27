@@ -16,6 +16,9 @@ netlify
 *.launch
 .settings/
 
+# db
+/prisma/dev.db
+
 # Temp
 gitignore
 
