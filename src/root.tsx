@@ -11,13 +11,14 @@ import {
   Scripts,
   Title,
 } from "solid-start";
+import { config } from "./config";
 import "./root.css";
 
 export default function Root() {
   return (
     <Html lang="en">
       <Head>
-        <Title>mctf</Title>
+        <Title>{config.name}</Title>
         <Meta charset="utf-8" />
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
